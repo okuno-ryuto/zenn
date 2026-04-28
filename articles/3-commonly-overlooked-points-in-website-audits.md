@@ -1,5 +1,6 @@
 ---
-title: "【3選】Webサイトの検証で見落としがちなポイント"
+title: "
+"
 emoji: "🌊"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["web","UI","alt","検証"]
