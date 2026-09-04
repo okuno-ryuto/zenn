@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "zenn-cli": "^0.5.3"
+=======
+    "zenn-cli": "^0.5.2"
+>>>>>>> 9494bec (add：zenn-cliのアップデート)
   }
 }
