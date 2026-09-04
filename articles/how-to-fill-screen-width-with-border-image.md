@@ -2,20 +2,20 @@
 title: "【CSS】border-imageで背景色を親要素からはみ出して画面幅いっぱいに広げる方法"
 emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: []
-published: false
-publication_name: hakoreco
+topics: [css]
+published: true
+publication_name: 
 ---
 
 # 1. はじめに
 
 **「innerやcontainerをはみ出して、背景色を画面幅いっぱいにしたい！」**
 Webコーダーなら一度は出会うであろうデザインでしょう。
-そして最初は困惑します。(ソースは一年目の時の俺)
+そして最初は困惑します。(ソースは一年目の時の私です)
 
 今回はたった1行でこの問題を解決する方法をご紹介します。
 他の実装方法も記載していきます〜
-(解説は3-1から)
+(解説は3から)
 
 # 2. border-imageとは
 
@@ -92,8 +92,6 @@ border-imageで背景色を親要素からはみ出して画面幅いっぱい�
 
 border-imageを使用する以外にも実装方法があるのでご紹介します。
 
-## 3-1. ネガティブマージンを使用する
-
 ```CSS
   margin: 0 calc(50% - 50vw);
   width: 100vw;
@@ -101,8 +99,7 @@ border-imageを使用する以外にも実装方法があるのでご紹介し�
 
 @[codepen](https://codepen.io/editor/swdijyad-the-selector/pen/019daa53-e02f-7d1b-8a1a-b6c7baf0be86)
 
-border-imageのやり方との違いは**セクション中のコンテンツがinnerの影響を受けない**部分です。
-
-## 3-2. ネガティブマージンを使用する
+古代から伝わる書き方です。きっと石器時代くらいからあるのではないでしょうか。
+border-imageのやり方との違いは**セクション中のコンテンツがinnerの影響を受けない**部分です。左右余白などを他セクションと統一したい場合は、このセクションに対して余白設定をする必要があります。
 
 # 4. おわりに
