@@ -3,8 +3,8 @@ title: "【CSS】border-imageで背景色を親要素からはみ出して画面
 emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [css]
-published: true
-publication_name: 
+published: false
+publication_name: hakoreco
 ---
 
 # 1. はじめに
