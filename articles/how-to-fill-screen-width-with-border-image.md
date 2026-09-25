@@ -4,7 +4,7 @@ emoji: "💻"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [css]
 published: false
-publication_name: hakoreco
+publication_name: 
 ---
 
 # 1. はじめに
